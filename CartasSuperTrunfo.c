@@ -12,7 +12,7 @@ int main() {
   // Área para exibição dos dados da cidade
 
   char estado;
-  char codigo[], nomedacidade[];
+  char codigo[20], nomedacidade[20];
   int populaçao, pontosturisticos;
   float areakm, PIB;
 
@@ -38,15 +38,14 @@ int main() {
   scanf ("%d", &pontosturisticos);
 
   printf (" Carta 1: \n");
-  Printf ("Estado: %c \n" estado);
-  printf ("Código: %s \n" codigo);
-  printf ("Nome da Cidade: %s \n" nomedacidade);
-  printf ("População: %d \n" populaçao);
-  printf ("Área: %f \n" areakm);
-  printf ("PIB: %1f \n" PIB);
-  printf ("Número de Pontos Turísticos: %d \n" pontosturisticos);
+  printf ("Estado: %c \n", estado);
+  printf ("Código: %s \n", codigo);
+  printf ("Nome da Cidade: %s \n", nomedacidade);
+  printf ("População: %d \n", populaçao);
+  printf ("Área: %f \n", areakm);
+  printf ("PIB: %1f \n", PIB);
+  printf ("Número de Pontos Turísticos: %d \n", pontosturisticos);
 
-  
 
 
   
